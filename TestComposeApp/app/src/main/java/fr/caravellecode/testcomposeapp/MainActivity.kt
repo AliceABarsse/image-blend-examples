@@ -138,7 +138,7 @@ fun ImageWithTintAndBlendModeColorFilter(tintValue: ColorFilter, blendMode: Blen
             )
             Spacer(modifier = Modifier.height(8.dp))
             Image(
-                painter = painterResource(id = R.mipmap.ic_white_nosed_coati_foreground),
+                painter = painterResource(id = R.drawable.ic_white_nosed_coati_foreground),
                 contentDescription = "White nosed coati PNG image with transparent background",
                 contentScale = ContentScale.Inside,
                 colorFilter = tintValue,
